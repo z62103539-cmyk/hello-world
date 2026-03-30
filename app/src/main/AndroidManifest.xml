@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SimpleNotePad">
         <activity
+            android:name=".EditNoteActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
