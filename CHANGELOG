@@ -2,22 +2,21 @@ Simple Note Pad Project Progress
 
 
 Weeks 1 to 3 Foundation and Structure
-
 Project Initiation: Defined the core purpose of Simple Note Pad as a lightweight productivity tool.
-
 Architecture: Set up the Android Studio project environment and established the basic activity hierarchy.
-
 Navigation: Implemented the first Intent to link the main dashboard with the note creation screen.
-
 UI Framing: Drafted initial XML layouts and explored Material3 design principles.
 
 
 Week 4 Implementation and Interaction Current
 
 Functional Editor: Fully developed the EditNoteActivity with input fields for titles and content.
-
 User Feedback: Added Toast notifications to provide immediate validation when saving notes.
-
 Theme Styling: Applied NoActionBar and customized color schemes to enhance readability.
-
 Code Refinement: Cleaned up Java logic to ensure robust input validation preventing empty notes.
+
+Week 5 (Current): Data Persistence and Bug Fixes
+
+Integrated SharedPreferences to save note data locally.
+Fixed the Theme.AppCompat crash issue.
+Verified data persistence through device testing.
