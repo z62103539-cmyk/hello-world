@@ -1,0 +1,44 @@
+Simple Note Pad - Project Outline & Progress Report
+
+Introduction
+Simple Note Pad is a lightweight Android application designed for quick note-taking and local data persistence. The project focuses on user-friendly interface design and robust data handling using Android SharedPreferences.
+
+Version Changelog
+
+v1.0 - Week 2 (Previous)
+
+Project Initiation: Defined core app purpose and target audience.
+
+Architecture: Set up the Android Studio environment and basic activity hierarchy.
+
+v1.1 - Week 4 (Previous)
+
+UI Implementation: Developed EditNoteActivity with title and content input fields.
+
+Navigation: Implemented Intent-based transitions between Main and Edit screens.
+
+Styling: Applied AppCompat themes and NoActionBar styles.
+
+v1.2 - Week 5 (Current)
+
+Data Persistence: Integrated SharedPreferences to save user notes to local storage.
+
+Bug Fixes: Resolved Theme.AppCompat compatibility issues causing app crashes.
+
+UI Refinement: Optimized button layouts and added Toast notifications for save confirmation.
+
+v1.3 - Weeks 6 to 8 (Future)
+
+List View: Transition to a list-based display for multiple saved notes.
+
+CRUD Operations: Add functionality to delete and edit existing notes.
+
+Final Presentation: Prepare technical documentation and investor pitch deck.
+
+Project Details
+
+Platform: Android API 36 (Java)
+
+Frontend: XML Layouts (Material3/AppCompat)
+
+Backend: SharedPreferences for persistence
