@@ -1,5 +1,6 @@
 package com.example.simplenotepad;
 
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
@@ -17,12 +18,20 @@ public class EditNoteActivity extends AppCompatActivity {
         EditText etBody = findViewById(R.id.et_note_body);
         Button btnSave = findViewById(R.id.btn_save_note);
 
-        if (btnSave != null && etTitle != null) {
+        if (btnSave != null) {
             btnSave.setOnClickListener(v -> {
                 String title = etTitle.getText().toString().trim();
+                String body = etBody.getText().toString().trim();
 
                 if (!title.isEmpty()) {
-                    Toast.makeText(this, "Note '" + title + "' Saved!", Toast.LENGTH_SHORT).show();
+                    SharedPreferences sharedPreferences = getSharedPreferences("SimpleNoteData", MODE_PRIVATE);
+                    SharedPreferences.Editor editor = sharedPreferences.edit();
+                    editor.putString("note_title", title);
+                    editor.putString("note_body", body);
+                    editor.apply();
+
+                    Toast.makeText(this, "Note Saved to Device!", Toast.LENGTH_SHORT).show();
+
 
                     finish();
                 } else {
