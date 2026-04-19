@@ -15,8 +15,15 @@ User Feedback: Added Toast notifications to provide immediate validation when sa
 Theme Styling: Applied NoActionBar and customized color schemes to enhance readability.
 Code Refinement: Cleaned up Java logic to ensure robust input validation preventing empty notes.
 
-Week 5 (Current): Data Persistence and Bug Fixes
+Week 5  Data Persistence and Bug Fixes
 
 Integrated SharedPreferences to save note data locally.
 Fixed the Theme.AppCompat crash issue.
 Verified data persistence through device testing.
+
+Week 6 Advanced Logic Integration and Wiki Publication
+
+Feature Integration: Implemented the onResume() lifecycle hook in MainActivity to ensure automatic data retrieval and UI synchronization whenever the user returns to the dashboard.
+UI Enhancement: Added a dynamic TextView container on the main screen to display real-time persistence data from SharedPreferences.
+Code Optimization: Refined the Activity navigation logic and improved error handling for null view references.
+Documentation: Formally published the mirrored "Project Outline" on the GitHub Wiki, including architectural diagrams and functional requirements.
