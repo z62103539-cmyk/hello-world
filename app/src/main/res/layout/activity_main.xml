@@ -21,6 +21,18 @@
         android:text="Week 2: Project Framework Established"
         android:layout_marginTop="10dp"
         android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_note_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No saved notes yet"
+        android:textSize="18sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:textColor="@android:color/darker_gray" />
+
     <Button
         android:id="@+id/btn_add_note"
         android:layout_width="wrap_content"
