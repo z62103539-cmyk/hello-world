@@ -27,3 +27,8 @@ Feature Integration: Implemented the onResume() lifecycle hook in MainActivity t
 UI Enhancement: Added a dynamic TextView container on the main screen to display real-time persistence data from SharedPreferences.
 Code Optimization: Refined the Activity navigation logic and improved error handling for null view references.
 Documentation: Formally published the mirrored "Project Outline" on the GitHub Wiki, including architectural diagrams and functional requirements.
+
+week 7 
+Layout Redesign: Modified activity_main.xml to accommodate a list-style structure (RecyclerView preparation).
+Outline Update: Published updated Project Outline on Wiki with wireframe references.
+Navigation Optimization: Refined the "Back" and "Save" logic to improve user flow.
